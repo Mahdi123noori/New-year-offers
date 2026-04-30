@@ -1,0 +1,39 @@
+.body {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url(images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 50px;
+    border-radius: 16px;
+
+}
+
+.greeting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.greeting {
+    font-family: Merriweather, serif;
+    font-size: 32px;
+    color: #FFFFFF;
+
+}
+
+.greeting-title {
+    font-family: Merriweather, serif;
+    font-weight: black;
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    text-shadow: burlywood;
+
+}
