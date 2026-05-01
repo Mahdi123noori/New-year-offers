@@ -78,3 +78,52 @@
     height: 500px;
     margin: 40px 0 120px 0;
 }
+
+/* party section styles  */
+
+.party-section {
+    background-image: url("images/vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 120px;
+
+}
+
+.party-title {
+    font-family: Merriweather, serif;
+    font-weight: black;
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.party-description {
+    font-family: inter, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+
+}
+
+.link {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 50px;
+
+
+}
+
+.year-24 {
+    width: 320px;
+    height: 465px;
+}
