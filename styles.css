@@ -1,9 +1,16 @@
 /* banner styles */
+.body-bg {
+    background-image: linear-gradient(to right, #FCC6BB 5%, #FCC6BB 10%, #E8B4AC 10%, #E8B7AE 1%);
+    width: 10%;
+    gap: 10px;
+}
+
 .body {
     width: 1320px;
     margin: 0 auto;
-
 }
+
+
 
 .banner {
     background-image: url(images/Banner\ Image.png);
@@ -126,4 +133,37 @@
 .year-24 {
     width: 320px;
     height: 465px;
+}
+
+/* timetable section styles */
+
+.timetable-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.timetable-container {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #070211;
+    margin: 0 100px 0 48px;
+}
+
+.btn {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-bottom: 110px;
+    text-align: center;
+    justify-content: center;
 }
