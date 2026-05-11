@@ -296,3 +296,45 @@
     width: 305px;
     height: 305px;
 }
+
+/* portfolio section */
+
+
+.portfolio-title {
+    font-family: Inter, sans-serif;
+    font-weight: medium;
+    font-size: 24px;
+    color: #FF0000;
+
+}
+
+.portfolio-heading {
+    font-family: Merriweather, serif;
+    font-weight: black;
+    font-size: 38px;
+    color: #070211;
+    margin: 16px 0 22px 0;
+}
+
+.portfolio-description {
+    font-family: Inter, sans-serif;
+    font-weight: regular;
+    font-size: 20px;
+    color: #070211;
+    margin-bottom: 48px;
+
+}
+
+.portfolio-pic-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+
+.portfolio-pic {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    mix-blend-mode: multiply;
+}
